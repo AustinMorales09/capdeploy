@@ -4,7 +4,7 @@ import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Button from 'react-bootstrap/Button';
-import {BACKEND_URL} from '.env'
+import {BACKEND_URL} from '../config.js';
 
 export default class Contacts extends Component {
   constructor(props) {
